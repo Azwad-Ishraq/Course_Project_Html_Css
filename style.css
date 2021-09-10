@@ -1,0 +1,328 @@
+body{
+    background-color: #262626!important;
+    
+}
+/* --------------------header----------------------- */
+.header{
+    background-image: url('laptop.jpg');
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    height: 937px;
+    
+    
+}
+.header::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
+    
+}
+/* -----navbar------- */
+.navbar{
+    background-color: rgba(25,25,25,255)!important;
+}
+.navbar-brand{
+    font-size: 2.5rem!important;
+    margin-left: 15px;
+    color: #fdc42d!important;
+    
+}
+.collapse ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+    
+}
+.collapse ul li{
+    margin-right: 40px;
+}
+.collapse ul li a:hover{
+    background-color: rgba(128, 128, 128, 0.192);
+}
+.nav-button{
+    border: none;
+    padding: 10px;
+    
+    background-color: #fdc42d;
+    color: white;
+}
+/* -----navbar------- */
+/* -----heading------- */
+.heading-sec h1{
+    color: white;
+    font-size: 5rem;
+}
+.heading-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90.5%;
+}
+.heading-sec button{
+    margin-top: 20px;
+    border: 0;
+    background-color: #fdc42d;
+    color: rgba(25,25,25,255);
+    padding: 15px;
+    font-weight: 500;
+}
+.heading-sec button:hover{
+    color: white;
+}
+/* -----heading------- */
+
+/* --------------------header----------------------- */
+/* --------------------courses----------------------- */
+
+section{
+    text-align: center;
+    
+}
+.sec-heading{
+    color: white;
+}
+.course-item{
+    display: flex;
+    justify-content: center;
+    
+}
+.card{
+    padding: 20px;
+    width: 25rem!important;
+    
+}
+.course-item .card img{
+    height: 300px;
+    width: 100%;
+    transition: .3s ease;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.course-item .card img:hover{
+    
+    transform: scale(1.05);
+}
+.strt{
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+}
+.fa-play-circle{
+    font-size: 2.1rem;
+    transition: .3s ease;
+}
+.fa-play-circle:hover{
+    color:#fdc42d ;
+}
+.course{
+    border: 0;
+    
+    color: #fdc42d;
+    background-color: white;
+    padding: 10px;
+    transition: .3s ease;
+    
+}
+.course:hover{
+    color: white;
+    background-color: #fdc42d;
+
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.courses{
+    margin-top: 100px;
+}
+.courses h2 {
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+}
+.courses p{
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+.accordion-button:focus{
+    border-color: white!important;
+    box-shadow: none!important;
+}
+.accordion-button:not(.collapsed){
+    background-color: white!important;
+    color: #fdc42d!important;
+}
+ 
+
+/* --------------------courses----------------------- */
+/* --------------------ready----------------------- */
+.ready{
+    margin-top: 50px;
+    background-image: url('2.jpg');
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    height: 500px;
+    width: 100%;
+}
+.ready::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
+}
+.ready-btn{
+    background-color: #fdc42d;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 10%;
+    transition: .5s ease;
+   
+}
+.ready-btn:hover{
+    background-color: white;
+    color: black;
+}
+.ready div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.ready h1{
+    color: white;
+    width: 37%;
+    font-size: 4rem;
+}
+/* --------------------ready----------------------- */
+/* --------------------courses taken by----------------------- */
+.com-icons{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    justify-items: center;
+    
+    height: 83%;
+    align-items: center;
+}
+.emp{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    height: 400px;
+}
+/* --------------------courses taken by----------------------- */
+/* --------------------sub----------------------- */
+.sub{
+    text-align: center;
+    color: white;
+    
+    background-color: #181818;
+    padding-top: 100px;
+    height: 700px;
+}
+.sub-items{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    height: 90%;
+}
+.sub-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+}
+.sub-item p{
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.sub-item h1{
+    margin-bottom: 20px;
+}
+.buy{
+    width: 30%;
+}
+/* --------------------sub----------------------- */
+/* --------------------footer----------------------- */
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    height: 400px;
+    background-image: url("footer.jpg");
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    
+}
+.footer::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
+}
+.logo{
+    font-size: 100px;
+    color: white;
+    width: 33.3%;
+}
+.li ul li{
+    list-style-type: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 33.3%;
+    cursor: pointer;
+}
+.li ul li:hover{
+    text-decoration: underline;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    width: 33.3%;
+}
+.soc{
+    margin-left: 20px;
+    font-size: 30px;
+    transition: .3s ease;
+}
+.soc:hover{
+    color: #fdc42d;
+}
+
+/* --------------------footer----------------------- */
